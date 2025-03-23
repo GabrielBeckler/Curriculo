@@ -1,11 +1,36 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #24292fad;
 }
-header{
 
-height: 60px;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-padding: 20px;
-
+header {
+    width: 100vw;
+    height: 100px; 
+    background-color: rgba(2, 12, 59, 0.9); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 100;
 }
+
+
+.foto_perfil {
+    margin-top: 17px;
+    border: 2px solid #000;
+    border-radius: 60px;
+    width: 100px;
+}
+
+footer{
+    background-color: rgba(2, 12, 59, 0.9);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 10px;               
+    flex-wrap: wrap;         
+}
+
